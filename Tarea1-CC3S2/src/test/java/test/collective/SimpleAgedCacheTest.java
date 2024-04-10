@@ -63,6 +63,7 @@ public class SimpleAgedCacheTest {
         assertEquals("anotherValue", expired.get("anotherKey"));
     }
 
+
     static class TestClock extends Clock {
         Duration offset = Duration.ZERO;
 
